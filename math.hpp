@@ -18,10 +18,6 @@
 #define PI  4.0*atan(1.0)
 #define EPS pow(2.0, -52)
 
-// TODO: Add Clenshaw–Curtis quadrature?
-// TODO: Add internal storage system to allow for copy and move constructors,
-//           set x0 and x1 to always be the same (actually don't, can scale),
-//           and using caching to avoid duplicates bogging up the basis function class
 /**
  * @brief Provides weights and sample coordinates for quadratures used in numerical integration
  */
